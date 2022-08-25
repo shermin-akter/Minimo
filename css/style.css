@@ -1,0 +1,167 @@
+/**body start**/
+body{ margin:0px;
+      padding:0px;
+      font-family: 'Playfair Display', serif;
+      font-size: 14px;
+      font-weight:400;
+      color: #626262;
+
+}
+ /**body end**/
+ /**header start**/
+header{padding:20px 0; 
+      }
+.container {margin:0px auto;
+            width:90%;
+            overflow: hidden;}
+.logo{
+      margin:16px 0px 0px;
+      width:11%;
+      float:left;
+      }
+.logo img{width:100%;}
+
+.menu ul{ float: right;}
+.menu ul  li { list-style: none;
+             float: left;}
+.menu ul li a {margin:0 50px;
+              padding:4px 1px 3px;
+              color:#626262;
+              text-decoration:none;
+              text-transform: uppercase;
+              transition: .3s;
+              border-bottom:1px solid transparent;
+              display:inline-block;}            
+.menu ul li:last-child a { padding-right: 0;}
+.menu ul li a:hover {border-bottom:1px solid #626262 ;}
+/**header end**/
+/**banner start**/ 
+.b_img img{width:100%;}
+.banner h1{display: none;}
+/**banner end**/
+/**perfect start**/
+.perfect{padding:100px 0px;}
+.container2{margin: 0 auto;
+           width:80%;
+         overflow: hidden;}
+.p_content{}
+.c_light{margin:0;
+        font-family: 'Ubuntu', sans-serif;
+        font-size:14px;
+        font-weight:300;
+        color:#b4ad9e;
+        text-transform:uppercase;
+       }
+.c_h1{margin-top:20px ;
+      margin-bottom:30px;
+      font-size:30px;
+      font-weight:400;}
+.c_text{margin:0;
+       line-height: 25px;}
+.mb_40 {margin-bottom:40px;}
+/**perfect end**/
+/**blog start**/
+.blog{padding-top:30px;
+     padding-bottom:100px;
+     margin-left:30px;}
+.blogs{}
+
+.single{margin-top: 70px;
+       width:47%;
+       float: left;}
+.single:nth-child(even){margin-left:6%;}
+.s_img{margin-bottom: 25px;}
+.s_img img{width: 100%;}
+/**blog end**/
+/**newsletter start**/
+.newsletter{background-color: #f0f0f0;
+            padding: 70px 0;}
+
+.signup{text-align: center;}
+.s_h1{color: #333333;
+     font-size: 30px;
+     margin-top:0;
+     margin-bottom:70px;
+      }
+.s_form{width: 400px;
+       margin: 0 auto;
+       position: relative;}
+.s_form input{ font-family: 'Playfair Display', serif;
+      font-size: 14px;
+      font-weight:400;
+      color: #626262;
+      width: 345px;
+      height:45px;
+      padding-left:5px;
+      padding-right:55px;
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid #000000;}
+.s_form input:focus{outline: 0;}
+.s_form button {position: absolute;
+               top:15px;
+               right: 0px;
+               background: transparent;
+               border: none;
+               cursor: pointer;}
+.s_form button:focus{outline: 0;}
+.s_form button img{}
+
+/**newsletter end**/
+ /**blog2 start**/
+ .loadmore{width: 15%;
+         margin: 150px auto 60px;}
+.loadmore .btn {
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    padding:15px;
+    border: 1px solid #616161;
+    background-color: transparent;
+    color: #333333;
+    cursor: pointer;
+    transition: 0.3s ease;}
+/**blog2 end**/
+/**footer start**/
+
+.footer{ padding:30px 50px;
+        background-color: #efefef;}
+.footer h1{display: none;}
+.container4{overflow:hidden;}
+.terms{float: left;}
+.terms ul li,.social_link ul li
+     { list-style: none;
+             float: left;
+          font-size:14px;
+      margin:0 20px;}
+.social_link ul li a, .terms ul li a {
+             color:#626262;
+              text-decoration:none;
+              transition: .3s;
+              border-bottom:1px solid transparent;
+              display:inline-block;}            
+.social_link ul li:last-child a ,.terms ul li:last-child a { padding-right: 0;}
+.social_link ul li a:hover ,.terms ul li a:hover {border-bottom:1px solid #626262 ;}
+.social_link{float: right}
+img{max-width: 100%;}
+/**footer end**/
+ @media screen and (max-width: 634px){
+  .menu{width: 100%;
+        float: left;}
+    .logo {
+    margin: 12px 20px;}
+  .menu ul {float: left;
+    padding-left: 0;}
+    .menu ul li a {margin: 0 19px;}
+  input{width:70%;}
+  .link{margin-bottom:10px;}
+  .single:nth-child(even){margin-left: 0px;}
+.single{width: 100%;}
+.terms {width: 100%; display: block;}
+.social_link{width: 100%;}
+.loadmore {width: 27%;}
+.newsletter h2{margin-right: 51px;}
+}
+@media screen and (max-width: 434px){
+    .loadmore {width:50%;}
+    .footer{padding: 30px 0px;}
+}
